@@ -1,14 +1,10 @@
 /*Header, nav and top section*/
 
-/* .container {
-    width: 960px;
-    margin: auto;
-} */
-
 .header-nav {
     background-color: white;
     min-height: 50px;
     border-bottom: 1px rgb(202, 202, 202) solid;
+    min-width: 100%;
 }
 
 header {
@@ -81,10 +77,8 @@ body {
 }
 
 #aboutMe, .portfolio, .contact {
-    margin: 40px auto 40px auto;
+    margin: 40px;
     padding: 50px;
-    max-width: 960px;
-    min-width: 640px;
     background-color: white;
     font-family: Arial, Helvetica, sans-serif;
     border: 1px rgb(202, 202, 202) solid;
