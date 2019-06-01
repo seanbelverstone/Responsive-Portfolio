@@ -46,3 +46,11 @@ a:active {
 }
 
 /* Media Queries */
+
+@media screen and (max-width: 980px) {
+
+    .imageContainer {
+        margin-right: 80px;
+
+    }
+}

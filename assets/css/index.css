@@ -134,14 +134,35 @@ footer {
 
 /* Media Queries */
 
-@media screen and (max-width: 980px;) {
-/*  */
-}
-
-@media screen and (max-width: 768px;) {
+@media screen and (max-width: 768px) {
     /* center align image and make bigger */
+    h2 {
+        text-align: center;
+    }
+    #profilePicture {
+        width: 100%;
+        height: 100%;
+        align-content: center;
+    }
 }
 
-@media screen and (max-width: 640px;) {
-    /* Center align image and make bigger too, also if possible try and make nav bar not slide under header */
+@media screen and (max-width: 640px) {
+    nav {
+        margin-top: 5px;
+    }
+    a:link {
+        color: white;
+    }
+
+    a:visited {
+        color: purple;
+    }
+
+    header {
+        float: none;
+    }
+    
+    li {
+        font-size: 25px;
+    }
 }
