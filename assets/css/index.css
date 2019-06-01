@@ -135,13 +135,13 @@ footer {
 /* Media Queries */
 
 @media screen and (max-width: 980px;) {
-
+/*  */
 }
 
 @media screen and (max-width: 768px;) {
-    
+    /* center align image and make bigger */
 }
 
 @media screen and (max-width: 640px;) {
-    
+    /* Center align image and make bigger too, also if possible try and make nav bar not slide under header */
 }
