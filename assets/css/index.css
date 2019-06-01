@@ -86,6 +86,7 @@ body {
     margin-left: auto;
     padding: 50px;
     max-width: 960px;
+    min-width: 640px;
     background-color: white;
     font-family: Arial, Helvetica, sans-serif;
     border: 1px rgb(202, 202, 202) solid;
@@ -116,6 +117,8 @@ h3 {
 
 p {
     margin: 10px 10px;
+    width: auto;
+    
 }
 
 /*footer*/
